@@ -2,8 +2,11 @@ package com.Tlegen.spring.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+
+
 @Entity
 @Table(name = "owners")
+@Getter
 public class Owner {
 
 

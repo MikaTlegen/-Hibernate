@@ -6,6 +6,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "pets")
+@Getter
 public class Pet {
 
 
